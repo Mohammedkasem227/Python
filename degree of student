@@ -1,0 +1,19 @@
+score = int ( input('Enter your score : ') )
+
+if score > 100 or score <0 :
+    print ('Enter correct number ')
+
+elif score >= 85 :
+    print ("Ex")
+
+elif score >=75 :
+    print ("v.g")
+
+elif score >=65 :
+    print ('G')
+
+elif score >= 50 :
+    print('pass')
+
+else :
+    print ('fail')

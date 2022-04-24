@@ -1,0 +1,28 @@
+
+number1 = int ( input ('Enter the value of number 1 : '))
+number2 = int ( input ('Enter the value of number 2 : '))
+
+sign = input ('What are you need : + , - , * or / : ')
+
+if sign == '+':
+    result = number1 + number2
+    
+elif sign == '-' : 
+    result = number1 - number2
+    
+elif sign == '*' : 
+    result = number1 * number2
+
+elif sign == '/' : 
+    try:
+        result = number1 / number2
+    except:
+        print('you try to make adivison over 0')
+
+else :
+    print('please enter the corret sign')
+
+try:
+    print ('the result is : '  + str (result))
+except :
+    print ('you have a wrong input data .')

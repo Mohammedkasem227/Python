@@ -1,0 +1,15 @@
+username = input ('enter your username : ')
+password = input ('enter your password : ')
+
+# using AND
+if username == 'kassem' and password =='12345':
+    print('welcome kassem')
+else : 
+    print ('incorrect username or password.')
+    
+    
+#using OR  
+if username == 'kassem' or username == 'admin':  
+    print ('welcome ' + username)
+else : 
+    print ('incorrect username or password.')

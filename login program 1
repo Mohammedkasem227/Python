@@ -1,0 +1,14 @@
+
+username = input ('enter your username : ')
+password = input ('enter your password : ')
+
+if username == 'kassem':
+    
+    if password == 'admin':
+        print ('welcom kassem')
+    
+    else:
+        print('incorrect password .')
+
+else : 
+    print ('incorrect username .')
